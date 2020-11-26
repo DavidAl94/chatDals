@@ -29,6 +29,6 @@ io.on('connection',function(socket){
 });
 
 //servidor o:
-server.listen(6677,function(){
+server.listen("process.env.PORT",function(){
     console.log("Servidor funcionando en Http://localhost:6677/");
 });

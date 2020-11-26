@@ -1,4 +1,4 @@
-var socket = io.connect('http://192.168.100.19:6677',{'forceNew':true});
+var socket = io.connect('process.env.PORT',{'forceNew':true});
 
 socket.on('messages',function(data){
     console.log(data);
