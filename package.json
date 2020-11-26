@@ -1,0 +1,22 @@
+{
+  "name": "curso-sockets",
+  "version": "1.0.0",
+  "description": "Proyecto de chat con NodeJs y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start":"server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":{
+    "node":"14.15.0"
+  },
+  "author": "David A Larrota S",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
